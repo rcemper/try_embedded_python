@@ -1,0 +1,824 @@
+<html>
+<meta name="Generator" content="Documatic">
+<title>Class %SYS.Python</title>
+<head>
+<style type="text/css">
+body {
+	margin: 0px;
+	font-family: verdana,arial,helvetica,sans-serif;
+	color: black;
+	background: white;
+}
+body.Class {   }
+ 
+body.Index { 
+	background: #CBE6EB;
+	background-position: right;
+	background-image: url('/csp/broker/images/docindexgradient.png');
+	background-repeat: repeat-y;
+}
+body.Storage { }
+body.About { }
+body.Search { }
+ 
+.Summary {
+	background: #C0C0C0;
+	margin-left: 0px;
+	margin-right: 10px;
+	border: 1px solid black;
+	font-size: 0.8em;
+	width: 80%;
+}
+ 
+.SummaryText {
+	font-size: 0.8em;
+}
+ 
+.Summary td {
+	padding-left: 8px;
+	padding-right: 8px;
+	background: white;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+ 
+.Summary td.private {
+	background: #D0D0D0;
+}
+ 
+.Summary td:hover {
+	background: yellow;
+}
+ 
+.Summary th {
+	padding-left: 8px;
+	padding-right: 8px;
+	background: #D0D0FF;
+	text-align: left;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+ 
+.Summary a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+}
+ 
+.Summary a.JS {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+ 
+.Summary a.inherited {
+	text-decoration: none;
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+}
+ 
+.Summary a.inheritedJS {
+	text-decoration: none;
+	color: #2020F0;
+	font-weight: normal;
+	font-style: italic;
+}
+ 
+.Summary a.className {
+	text-decoration: none;
+	color: black;
+	font-weight: normal;
+}
+ 
+.Summary a.pkgName {
+	text-decoration: none;
+	color: darkblue;
+	font-weight: bold;
+}
+ 
+.Summary a.nsName {
+	text-decoration: none;
+	color: black;
+	font-weight: normal;
+}
+ 
+.Summary td.nsNameCurr {
+	background: pink;
+}
+ 
+.Summary td.sysItem {
+	background: #F0F0FF;
+}
+ 
+.Summary a.nsNameCurr {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+ 
+.Summary a.deprecated {
+	text-decoration: line-through;
+}
+ 
+span.deprecated {
+	border: 1px solid gray;
+    padding: 2px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+}
+ 
+div.MainDiv {
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 120%;
+}
+ 
+table.ClassBanner { 
+	color: white; background: #287780; 
+	font-size: 24pt;
+}
+table.Label { 
+	color: black; 
+	background: #CBE6EB;
+	font-size: 12pt;
+	width: 90%;
+	border-top: 1px solid #A0C0CB;
+}
+ 
+.IndexLabel {
+	padding-left: 20px;
+	color: darkblue;
+	background: none;
+	font-size: 12pt;
+	font-weight: bold;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+table.VersionInfo { color: black; background: #DBF6FB; font-size: 10pt; }
+ 
+.DivShow { display: block; }
+.DivHide { display: none; }
+ 
+table.ClsSearchResult {
+	border: 1px solid black;
+}
+ 
+table.ClsSearchResult td {
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+ 
+table.ClsSearchResult td a:hover {
+	color: red;
+}
+ 
+.DarkRow { background: #DDDDDD; }
+.LightRow { background: #EEEEEE; }
+ 
+.IndexText {
+	font-weight: bold;
+	font-size: 0.8em;
+}
+ 
+div.IndexChoice { 
+	font-family: Helvetica,Arial,sans-serif; 
+	font-size: 12pt; 
+	font-weight: bold; 
+	color: black; 
+	background: none; 
+	border-color: black; 
+	border-width: 1px; 
+	border-style: none; 
+	padding-left: 3%; 
+	padding-right: 3%; 
+	padding-top: 0%; 
+	padding-bottom: 0%; }
+ 
+a.PackageChoice {
+	font-family: Arial, sans-serif; 
+	font-size: 12pt; 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: black; 
+	background: none; 
+	border-color: black; 
+	border-width: 0px; 
+	border-style: none; 
+	padding-left: 3%; 
+	padding-right: 3%; 
+	padding-top: 0%; 
+	padding-bottom: 0%; }
+ 
+a.PackageChoiceInt {
+	font-family: Arial, sans-serif; 
+	font-size: 12pt; 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: gray; 
+	background: none; 
+	border-color: black; 
+	border-width: 0px; 
+	border-style: none; 
+	padding-left: 3%; 
+	padding-right: 3%; 
+	padding-top: 0%; 
+	padding-bottom: 0%; }
+ 
+a.IndexChoiceInt {
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: gray; 
+	background: none; 
+	border-color: black; 
+	border-width: 0px; 
+	border-style: none; 
+	padding-left: 3%; 
+	padding-right: 3%; 
+	padding-top: 0%; 
+	padding-bottom: 0%; }
+ 
+a.IndexChoice {
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: black; 
+	background: none; 
+	border-color: black; 
+	border-width: 0px; 
+	border-style: none; 
+	padding-left: 3%; 
+	padding-right: 3%; 
+	padding-top: 0%; 
+	padding-bottom: 0%; }
+ 
+a.SearchResult {
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: black; 
+	padding-left: 3%; 
+	padding-right: 3%; 
+	padding-top: 0%; 
+	padding-bottom: 0%; }
+ 
+div.SampleCode {
+	color: black;
+		border: 1px solid black;
+		font-family: courier new,courier,monospace;
+		font-size: 1.2em;
+		text-align: left;
+		line-height: 125%;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding-left: 10px; padding-top: 0px; padding-bottom: 0px;
+	background: #C0C0C0;
+	background-image: url('/csp/broker/images/grad-halfgray-10x500.png');
+	background-repeat: repeat-x;
+	overflow-x: auto;
+}
+ 
+.StoragePtr { 
+	color: black; 
+	background: #CBE6EB; 
+	font-size: 10pt; 
+	border: black solid 1px; 
+}
+.StorageNode { 
+	color: white; 
+	background: #287780; 
+	font-size: 10pt; 
+	border: black solid 1px; 
+}
+.StorageSlot { 
+	color: black; 
+	background: #CBE6EB; 
+	font-size: 10pt; 
+	border: black solid 1px; 
+}
+.StorageSingle { }
+ 
+.StoragePtrSuper { 
+	color: black; 
+	background: #C0C0C0; 
+	font-size: 10pt; 
+	border: black solid 1px; 
+}
+.StorageNodeSuper { 
+	color: white; 
+	background: #287780; 
+	font-size: 10pt; 
+	border: black solid 1px; 
+}
+.StorageSlotSuper { 
+	color: black; 
+	background: #C0C0C0; 
+	font-size: 10pt; 
+	border: black solid 1px; 
+}
+.StorageSingleSuper { }
+ 
+a.MethodLink {font-weight: bold; text-decoration: none; }
+a.PropertyLink {font-style: italic; text-decoration: none; }
+a.QueryLink {font-weight: bold; text-decoration: none; }
+a.ParameterLink {font-style: italic; text-decoration: none; }
+ 
+span.internal {
+	display: block;
+	background: white; 
+	color: #808080;
+	border-top: 1px solid #DDDDFF; 
+	padding-top: 3px;
+}
+span.external {
+	display: block;
+	background: white; 
+	color: black; 
+	border-top: 1px solid #DDDDFF; 
+	padding-top: 3px;
+}
+span.tblhdr {
+	color: white; 
+	font-weight: bold;
+	font-size: 0.8em;
+}
+span.sqltext { font-family: Courier, Courier-New, monospaced; }
+table.internal { color: black; background: #F0F0F0; }
+table.external { color: black; background: #FFFFFF; }
+ 
+.header { font-weight: bold; }
+ 
+td.LocatorBar {
+	color: darkblue;
+	font-weight: bold;
+	background: #A0B088;
+	background-image: url('/csp/broker/images/locatorgradient.png');
+	background-repeat: repeat-x;
+	border-bottom: 1px darkblue solid;
+	padding-bottom: 1px;
+}
+ 
+DIV.Locator {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: darkblue;
+	text-decoration: none;
+	padding-left: 5px;
+}
+ 
+DIV.Locator A {
+	color: darkblue;
+	text-decoration: none;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+ 
+DIV.Locator A:visited {
+	color: darkblue;
+}
+ 
+DIV.Locator A:hover {
+	color: red;
+	background: #FFFAE7;
+}
+ 
+A.buttonStyleON
+{
+	COLOR: darkblue;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	TEXT-DECORATION: none;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+A.buttonStyleON:visited
+{
+	COLOR: darkblue;
+	TEXT-DECORATION: none;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+A.buttonStyleON:hover
+{
+	COLOR: red;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+ 
+.hier {
+	color: #2f6280;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 40px;
+}
+.lev {
+	color: #404040;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 70px;  
+}
+.pro {
+	color: #2f6280;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 100px;
+}
+.indent1 {
+	color: #404040;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 16px;  
+}
+table.DetailTable {
+	font-size: 11px;
+	margin-top: 10px; margin-right: 20px; margin-bottom:10px;
+	border: 1px #888888 solid;
+}
+table.DetailTable th {
+	font-size: 12px;
+	text-align: left;
+	background: #f1f0e7;
+	padding: 3 5 3 5;
+	border-bottom: 1px #888888 solid;
+}
+table.DetailTable td {
+	text-align: left;
+	padding: 3 5 3 5;
+}
+table.DetailTable tr.DarkRow { background: #F1F0E7; }
+table.DetailTable tr.LiteRow { background: white; }
+table.DetailTable tr.DiffRow { background: #F3E799; }
+ 
+ 
+a.hidden, font.hidden {
+	color: grey;
+}
+ 
+</style>
+ 
+ <script language="JavaScript" type="text/javascript">
+ function expandIt(Id) {
+ whichEl = eval("Id" + Id);
+ whichIm = eval("Im" + Id);
+ if (whichEl.style.display == 'none') {
+ whichEl.style.display = '';
+ whichIm.src = "/csp/sys/images/ExpandedMarker.jpg"; }
+ else {
+ whichEl.style.display = 'none';
+ whichIm.src = "/csp/sys/images/ContractedMarker.jpg"; }
+ return; }
+ 
+function togglePrivate(flag) {
+	var url;
+	var s;
+	var t;
+	url = self.document.location.toString();
+	t = url.split('?');
+	s = t[1].split('&PRIVATE');
+	if (flag) {
+		self.document.location = '%25CSP.Documatic.cls?' + s[0] + '&PRIVATE=1';
+	}
+	else {
+		self.document.location = '%25CSP.Documatic.cls?' + s[0];
+	}
+ }
+ 
+function toggleStorage(flag) {
+	var url;
+	var s;
+	var t;
+	url = self.document.location.toString();
+	t = url.split('?');
+	if (t[1].indexOf('PAGE=STORAGE') != -1) {
+		 s = t[1].split('PAGE=STORAGE');
+	}
+	else if (t[1].indexOf('PAGE=CLASS') != -1) {
+		 s = t[1].split('PAGE=CLASS');
+	}
+	else {
+		return;
+	}
+ 
+	if (flag) {
+		self.document.location = '%25CSP.Documatic.cls?' + s[0] + 'PAGE=STORAGE' + s[1];
+	}
+	else {
+		self.document.location = '%25CSP.Documatic.cls?' + s[0] + 'PAGE=CLASS' + s[1];
+	}
+ }
+ </script> 
+<script type="text/javascript">
+
+				var xenAutoLogoutTimerID = self.setTimeout("xenAutoLogout()",915000);
+				function xenAutoLogout()
+				{
+					top.document.location.reload();
+				}
+				
+</script>
+<script language="javascript">
+ 
+	// launch DocBook window for given ID
+	function showDocumentation(topic, anchor,url)
+	{
+		if (null==url) {
+			url = "/csp/docbook/DocBook.UI.Page.cls";
+		}
+ 
+		var wid = self.screen.width;
+		var hgt = self.screen.height;
+		if (parseInt(navigator.appVersion)>3) {
+ 			if (navigator.appName == "Netscape") {
+ 				wid = window.innerWidth;
+ 				hgt = window.innerHeight;
+ 			}
+ 			if (navigator.appName.indexOf("Microsoft") != -1) {
+  		 		wid = document.body.offsetWidth;
+ 		 		hgt = document.body.offsetHeight;
+ 			}
+		}
+		wid = wid * 0.8;
+		hgt = hgt * 0.8;
+		var top = self.screen.height * 0.1;
+		var left = self.screen.width * 0.1;
+ 
+		if (topic && ('' != topic)) {
+			if (url.indexOf("?") == -1) {
+				url += '?';
+			} else {
+				url += '&';	
+			}
+			url += 'KEY=' + encodeURIComponent(topic);
+		}
+		if (anchor && ('' != anchor)) {
+			url += '#' + encodeURIComponent(anchor);
+		}
+		win = window.open(url,'docbook','left='+left+',top='+top+',width='+wid+',height='+hgt+',status,scrollbars,resizable,location=1,toolbar=1,menubar=1');
+		win.focus();
+	}
+ 
+	</script>
+</head>
+<body class="Class">
+<table style="width:100%; border:0px; padding:0px; border-spacing:0px; color:darkblue; margin-left:10px; ">
+    <tr>
+       <td>
+<div style="font-weight:bold; font-size:1.5em; margin-right:10px; ">Class Reference</div>
+<div style="font-weight:bold; font-size:1em; margin-right:10px; ">IRIS for UNIX 2020.3</div>
+       </td>
+      <td width="30%" style="text-align:right;">
+<img src="/csp/sys/images/IS_HBG_SM_TM-cmyk.svg" height="75px" alt="InterSystems: The power behind what matters" >&nbsp;&nbsp;&nbsp;
+       </td>
+    </tr>
+    <tr>
+       <td>
+<div>
+<a target="_top" title="Go to the DocBook Home Page" class="buttonStyleON" href='/csp/docbook/DocBook.UI.Page.cls'>Documentation</a>&nbsp;
+           <a title="Go to the Class Search Page" class="buttonStyleON" href='%25CSP.Documatic.cls?PAGE=SEARCH&LIBRARY=%25SYS&CLASSNAME=%25SYS.Python'>Search</a>
+</div>
+       </td>
+    </tr>
+</table>
+<table style="width:100%; border:0px; padding:0px; border-spacing:0px; font-size: 10pt;vertical-align:top; ">
+    <tr>
+       <td colspan="100" style="vertical-align:top;line-height:1px;font-size:0pt; background-color:#D36D00" height="1">
+       </td>
+    </tr>
+    <tr  >
+      <td class="LocatorBar" style="padding-bottom:5px; width:70%">
+         <div align="left" class="Locator" style="font-size: 10pt;">&nbsp;
+<nobr>[<a title="%SYS" href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=">%SYS</a>] > </nobr>
+<nobr>[<a title="%SYS" href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25SYS">%SYS</a>] > </nobr>
+<nobr>[<a title="Python" href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25SYS.Python">Python</a>]</nobr>
+        </div>
+       </td>
+       <td class="LocatorBar" style="width:30%;font-size:9pt;"  >
+
+		<div style="font-size: 10pt;" align="right">
+		<span title="Show private members of this class"><input id="cbPrivate" type="checkbox" onclick="togglePrivate(this.checked);"  /><span onclick="togglePrivate(!self.document.getElementById('cbPrivate').checked);">Private</span></span>&nbsp;
+		<span title="Show storage for this class"><input id="cbStorage" type="checkbox" onclick="toggleStorage(this.checked);"  /><span onclick="toggleStorage(!self.document.getElementById('cbStorage').checked);">Storage</span></span>&nbsp;&nbsp;&nbsp;
+		</div>
+		</td>
+    </tr>
+</table>
+<div align="right" valign="middle" style="margin-right:8px;">
+	<a href="%25CSP.Documatic.PrintClass.cls?PAGE=CLASS&LIBRARY=%25SYS4&CLASSNAME=%25SYS.Python" title="Printer Friendly Version" target="_top">
+	<img src="/csp/broker/deepsee/printer_24.png" width="24" height="24" border="0"></a></div>
+<div class="MainDiv">
+<br><p>
+<nobr>class <b>%SYS.Python</b>
+ extends <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.SystemBase">%Library.SystemBase</a></nobr>
+</nobr><p><p>
+Python interface<br>
+Import a module, and invoke its services.
+</p></p><a name="Anchor_Inventory"></a>
+<table class="Label" cellpadding="0" cellspacing="0" cols="1">
+<tr valign="center">
+<td align="left" width="100%" >
+<a href="#" onclick="expandIt(1); return false;" class="PackageChoice" title="Expand/Collapse Inventory" onmouseover="this.style.color = 'red';" onmouseout="this.style.color = 'black';">
+	<image id=Im1 src=/csp/sys/images/ExpandedMarker.jpg height=15 width=16 border=0 align=bottom>
+<nobr><b>Inventory</b></nobr></a>
+</td>
+</tr>
+</table>
+<br>
+<div id="Id1" class="DivShow" style="">
+<table class="Summary" cellpadding="0" cellspacing="0" cols="1">
+<tr valign="center">
+<th align="center">
+Parameters
+</th>
+<th align="center">
+Properties
+</th>
+<th align="center">
+<a href="#Anchor_Methods">Methods</a>
+</th>
+<th align="center">
+Queries
+</th>
+<th align="center">
+Indices
+</th>
+<th align="center">
+ForeignKeys
+</th>
+<th align="center">
+Triggers
+</th>
+</tr>
+<tr>
+<td align="center" class="private">
+</td>
+<td align="center" class="private">
+</td>
+<td align="center">
+<a href="#Anchor_Methods">16</a>
+</td>
+<td align="center" class="private">
+</td>
+<td align="center" class="private">
+</td>
+<td align="center" class="private">
+</td>
+<td align="center" class="private">
+</td>
+</tr>
+</table>
+<br/>
+<br/></div>
+<a name="Anchor_Summary"></a>
+<table class="Label" cellpadding="0" cellspacing="0" cols="1">
+<tr valign="center">
+<td align="left" width="100%" >
+<a href="#" onclick="expandIt(2); return false;" class="PackageChoice" title="Expand/Collapse Summary" onmouseover="this.style.color = 'red';" onmouseout="this.style.color = 'black';">
+	<image id=Im2 src=/csp/sys/images/ExpandedMarker.jpg height=15 width=16 border=0 align=bottom>
+<nobr><b>Summary</b></nobr></a>
+</td>
+</tr>
+</table>
+<br>
+<div id="Id2" class="DivShow" style="">
+<table class="Summary" border="0" cellspacing="0" cellpadding="1">
+		<tr><th colspan="4" title="Bold for local member; italics for inherited; shaded for private; blue for client methods; strikethrough for deprecated.">Methods</th></tr>
+<tr>
+<td  nowrap><a class="" href="#METHOD_%DispatchGetProperty" title="%SYS.Python">%DispatchGetProperty</a></td>
+<td  nowrap><a class="" href="#METHOD_%DispatchSetProperty" title="%SYS.Python">%DispatchSetProperty</a></td>
+<td  nowrap><a class="" href="#METHOD_Bytes" title="%SYS.Python">Bytes</a></td>
+<td  nowrap><a class="" href="#METHOD_ChangeSignalState" title="%SYS.Python">ChangeSignalState</a></td>
+</tr><tr>
+<td  nowrap><a class="" href="#METHOD_Cleanup" title="%SYS.Python">Cleanup</a></td>
+<td  nowrap><a class="" href="#METHOD_Debugging" title="%SYS.Python">Debugging</a></td>
+<td  nowrap><a class="" href="#METHOD_False" title="%SYS.Python">False</a></td>
+<td  nowrap><a class="" href="#METHOD_Import" title="%SYS.Python">Import</a></td>
+</tr><tr>
+<td  nowrap><a class="" href="#METHOD_Install" title="%SYS.Python">Install</a></td>
+<td  nowrap><a class="" href="#METHOD_None" title="%SYS.Python">None</a></td>
+<td  nowrap><a class="" href="#METHOD_Run" title="%SYS.Python">Run</a></td>
+<td  nowrap><a class="" href="#METHOD_SetStdIOMode" title="%SYS.Python">SetStdIOMode</a></td>
+</tr><tr>
+<td  nowrap><a class="" href="#METHOD_True" title="%SYS.Python">True</a></td>
+</tr>
+</table><br/>
+<br/></div>
+<a name="Anchor_Methods"></a>
+<table class="Label" cellpadding="0" cellspacing="0" cols="1">
+<tr valign="center">
+<td align="left" width="100%" >
+<a href="#" onclick="expandIt(3); return false;" class="PackageChoice" title="Expand/Collapse Methods" onmouseover="this.style.color = 'red';" onmouseout="this.style.color = 'black';">
+	<image id=Im3 src=/csp/sys/images/ExpandedMarker.jpg height=15 width=16 border=0 align=bottom>
+<nobr><b>Methods</b></nobr></a>
+</td>
+</tr>
+</table>
+<br>
+<div id="Id3" class="DivShow" style="">
+<a name="%DispatchGetProperty"></a>
+<a name="METHOD_%DispatchGetProperty"></a>
+<span class="external"><nobr>&#149 method <b>%DispatchGetProperty(name As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.String">%String</a></nobr>)</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr></nobr>
+[ Language = cpp ]</span><blockquote>
+Get a python object attribute.<br></blockquote>
+<a name="%DispatchSetProperty"></a>
+<a name="METHOD_%DispatchSetProperty"></a>
+<span class="external"><nobr>&#149 method <b>%DispatchSetProperty(propName As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.String">%Library.String</a></nobr>, value As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.String">%Library.String</a></nobr>)</b>
+</nobr>
+[ Language = cpp ]</span><blockquote>
+Get a python object attribute.<br></blockquote>
+<a name="Bytes"></a>
+<a name="METHOD_Bytes"></a>
+<span class="external"><nobr>&#149 classmethod <b>Bytes(cmd As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Binary">%Binary</a></nobr>)</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr></nobr>
+[ Language = cpp ]</span><blockquote>
+Convert COS string to a python bytes object. The sting cannot contain any wide char.
+</blockquote>
+<a name="ChangeSignalState"></a>
+<a name="METHOD_ChangeSignalState"></a>
+<span class="external"><nobr>&#149 classmethod <b>ChangeSignalState(state As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr>)</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr></nobr>
+[ Language = cpp ]</span><blockquote>
+Set the signal handling state 0 - swap, 1 - disable swapping iris will notify,
+to python signal handling
+</blockquote>
+<a name="Cleanup"></a>
+<a name="METHOD_Cleanup"></a>
+<span class="external"><nobr>&#149 method <b>Cleanup()</b>
+</nobr>
+[ Language = cpp ]</span><blockquote>
+Release all associated resources
+</blockquote>
+<a name="Debugging"></a>
+<a name="METHOD_Debugging"></a>
+<span class="external"><nobr>&#149 classmethod <b>Debugging(state As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr>)</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr></nobr>
+[ Language = cpp ]</span><blockquote>
+If passed true, it doesn't reset the error context before invoking any python
+feature (enable this befor invoking any pdb method).
+</blockquote>
+<a name="False"></a>
+<a name="METHOD_False"></a>
+<span class="external"><nobr>&#149 classmethod <b>False()</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr></nobr>
+[ Language = cpp ]</span><blockquote>
+Returns Python True object.
+</blockquote>
+<a name="Import"></a>
+<a name="METHOD_Import"></a>
+<span class="external"><nobr>&#149 classmethod <b>Import(name As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Binary">%Binary</a></nobr>)</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr></nobr>
+[ Language = cpp ]</span><blockquote>
+Loads a module and returns an object.<br>
+Returns zero on failure.<br></blockquote>
+<a name="Install"></a>
+<a name="METHOD_Install"></a>
+<span class="external"><nobr>&#149 classmethod <b>Install(packages As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.String">%String</a></nobr>, dir As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.String">%String</a></nobr> = "")</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Status">%Status</a></nobr></nobr>
+</span><blockquote>
+Installs a new Python package into <tt>$MGRDIR/python</tt> by calling pip.  Install
+progress will be written to the current device.
+</blockquote>
+<a name="None"></a>
+<a name="METHOD_None"></a>
+<span class="external"><nobr>&#149 classmethod <b>None()</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr></nobr>
+[ Language = cpp ]</span><blockquote>
+Return python None object that can be used for assignment or as argument.
+</blockquote>
+<a name="Run"></a>
+<a name="METHOD_Run"></a>
+<span class="external"><nobr>&#149 classmethod <b>Run(cmd As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Binary">%Binary</a></nobr>)</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr></nobr>
+[ Language = cpp ]</span><blockquote>
+Run a Python cmd, multiple can be separated by new line $c(10)
+</blockquote>
+<a name="SetStdIOMode"></a>
+<a name="METHOD_SetStdIOMode"></a>
+<span class="external"><nobr>&#149 classmethod <b>SetStdIOMode(flags As <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr>)</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr></nobr>
+[ Language = cpp ]</span><blockquote>
+if flags bit 1 is set, the stderr (fd 2) output will be redirected to stdout (fd 1) if there is a current COS primary device, otherwise it will behave the original way and log it in messages.log
+</blockquote>
+<a name="True"></a>
+<a name="METHOD_True"></a>
+<span class="external"><nobr>&#149 classmethod <b>True()</b>
+as <nobr><a href="%25CSP.Documatic.cls?PAGE=CLASS&LIBRARY=%25SYS&CLASSNAME=%25Library.Integer">%Integer</a></nobr></nobr>
+[ Language = cpp ]</span><blockquote>
+Returns Python True object.
+</blockquote>
+</div>
+<hr/><br/>
+</body></html>
+<div style="font-size:10pt; margin-left:10px; margin-right:10px;">
+<A HREF="copyright.pdf" target="_blank" >Copyright</A> (c) 2021 by InterSystems Corporation. Cambridge, Massachusetts, U.S.A.  All rights reserved. Confidential property of InterSystems Corporation.</div>
