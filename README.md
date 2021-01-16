@@ -66,7 +66,7 @@ day 0 to exit
 
      day (1..25) [3]:
 ```
-## Hint  
+## Hints  
 Directory __.stream/__ contains all my input files and some public test data.  
 If you want to use your personal input you should replace them as 1 file by day.  
 e.g. input01.txt, input02.txt,........ ,input25.txt exactly as downloaded from AOC2020.  
@@ -82,3 +82,6 @@ __docker image__:  if you don't have the required image already you need to down
 docker login -u="<username>" -p="<passwd>" containers.intersystems.com
 docker pull containers.intersystems.com/intersystems/iris-ml:2020.3.0.304.0
 ~~~
+__run time__: for most tests replyies are pretty immedeiate.  
+But some take quite long time before a reaction. Don't get nervous.  
+ 
