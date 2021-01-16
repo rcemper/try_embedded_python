@@ -1,0 +1,8 @@
+*.sh eol=lf
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.mac linguist-language=ObjectScript
+*.int linguist-language=ObjectScript
+*.inc linguist-language=ObjectScript
+*.csp linguist-language=Html
