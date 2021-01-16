@@ -11,20 +11,22 @@ def run(mod):
 
 if __name__ == '__main__':
     inp = ""
+    day = 0
     print('welcome to demo test')
     print('select a day (1..25) or exit with "*"')
     while inp != '*' :
         inp = input('\twhich day : ')
-        if (inp == "*") : break   
+        if (inp == "*") : break
+        if (inp == "" ) : inp=str(day+1)   
         try:
-            inp = int(inp)
+            day = int(inp)
         except:
              print('\t\twhat was that ?',inp,' ??')
              continue
-        if ((inp < 1) | (inp > 25)): 
+        if ((day < 1) | (day > 25)): 
             print('\t\tonly 1 .. 25 !',inp)
             continue
-        res=run(inp)
-        print('Part 1:',res[0])
-        print('Part 2:',res[1])
+        res=run(day)
+        print('Day ',day,' Part 1:',res[0])
+        print('Day ',day,' Part 2:',res[1])
     exit()
