@@ -8,19 +8,17 @@ Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installi
 ## Installation 
 
 Clone/git pull this repo into any local directory
-
 ```
 $ git clone https://github.com/rcemper/try_embedded_python  
 ```
 
 Open the terminal in this directory and run:
-
 ```
 $ docker-compose build
 ```
+this my take some time to complete
 
-3. Run the IRIS container with this project:
-
+Run the IRIS container with this project:
 ```
 $ docker-compose up -d
 ```
@@ -28,7 +26,6 @@ $ docker-compose up -d
 ## How to Test it
 
 Using IRIS terminal:
-
 ```
 $ docker-compose exec iris iris session iris "##class(rccpy.AoC20).Run()"
 
