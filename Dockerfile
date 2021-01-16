@@ -1,7 +1,15 @@
 ARG IMAGE=containers.intersystems.com/intersystems/iris-ml:2020.3.0.304.0
 FROM $IMAGE
 USER root   
-       
+
+RUN \
+  apt-get update && \
+  apt-get -y install nano
+  
+RUN \
+  apt-get update && \
+  apt-get -y install python3 python3-pip
+
 WORKDIR /opt/irisapp
 RUN chown ${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} /opt/irisapp
 
