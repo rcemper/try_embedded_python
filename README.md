@@ -73,5 +73,6 @@ e.g. input01.txt, input02.txt,........ ,input25.txt exactly as downloaded from A
 
 __%SYS.Python.html__ is a preliminary class docu to see available functions
 
-__iris.key__ is a temorary preview key available from [WRC Distribution](https://wrc.intersystems.com/wrc/coDistPreview.csp)  
+__iris.key__ is a temporary preview key available from [WRC Distribution](https://wrc.intersystems.com/wrc/coDistPreview.csp)  
 It requires your personal update as it might be expired.  
+It is not required to run the demo, but access to code might be limited.     
