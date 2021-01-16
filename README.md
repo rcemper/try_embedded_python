@@ -79,6 +79,6 @@ __docker image__:  if you don't have the required image already you need to down
 docker login -u="<username>" -p="<passwd>" containers.intersystems.com
 docker pull containers.intersystems.com/intersystems/iris-ml:2020.3.0.304.0
 ~~~
-__run time__: for most tests replyies are pretty immedeiate.  
-But a few take quite long time for calculations before showing a reaction. Don't get nervous.  
+__run time__: for most tests replies are pretty immediate.  
+But a few tests take quite long time for calculations before showing a reaction. Don't get nervous.  
  
