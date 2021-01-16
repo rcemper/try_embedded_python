@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="terminal-multiline.ZPM">
+  <Document name="try_embedded_python.ZPM">
     <Module>
-      <Name>terminal-multiline</Name>
-      <Version>1.0.1</Version>
-      <Description>Multi-Line in Terminal Command</Description>
-      <Keywords>Terminal, COS</Keywords>
+      <Name>try_embedded_python</Name>
+      <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-       <Resource Name="%zml.MAC"/>
+      <Resource Name="rccpy.PKG"/>
     </Module>
   </Document>
 </Export>
