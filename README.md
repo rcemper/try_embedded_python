@@ -71,7 +71,7 @@ Directory __.stream/__ contains all my input files and some public test data.
 If you want to use your personal input you should replace them as 1 file by day.  
 e.g. input01.txt, input02.txt,........ ,input25.txt exactly as downloaded from AOC2020.  
 
-__%SYS.Python.html__ is a preliminary class docu to see availaible functions
+__%SYS.Python.html__ is a preliminary class docu to see available functions
 
 __iris.key__ is a temorary preview key available from [WRC Distribution](https://wrc.intersystems.com/wrc/coDistPreview.csp)  
 It requires your personal update as it might be expired.  
