@@ -83,5 +83,5 @@ docker login -u="<username>" -p="<passwd>" containers.intersystems.com
 docker pull containers.intersystems.com/intersystems/iris-ml:2020.3.0.304.0
 ~~~
 __run time__: for most tests replyies are pretty immedeiate.  
-But a few take quite long time for calculatins before showing a reaction. Don't get nervous.  
+But a few take quite long time for calculations before showing a reaction. Don't get nervous.  
  
