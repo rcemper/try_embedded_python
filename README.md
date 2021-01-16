@@ -1,5 +1,5 @@
 This is a first attempt to use Embedded Python in IRIS  
-The Python code is andapted from solutions for [Advent of Code 2020](https://adventofcode.com/) contest.  
+The Python code is adapted from solutions for [Advent of Code 2020](https://adventofcode.com/) contest.  
 Test data are all input to my personal challenge.
 
 ## Prerequisites
