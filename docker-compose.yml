@@ -5,9 +5,12 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
-    ports: 
+    ports:
+      - '40022:22'  
       - '41773:1972'
       - '42773:52773'
       - '43773:53773'
     volumes:
       - ./:/irisdev/app
+    environment:
+      - PYTHONHOME=/usr
