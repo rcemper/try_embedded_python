@@ -76,3 +76,9 @@ __%SYS.Python.html__ is a preliminary class docu to see available functions
 __iris.key__ is a temporary preview key available from [WRC Distribution](https://wrc.intersystems.com/wrc/coDistPreview.csp)  
 It requires your personal update as it might be expired.  
 It is not required to run the demo, but access to code might be limited.     
+
+__docker image__:  if you don't have the required image already you need to downlad it from  containers.intersystems.com 
+~~~
+docker login -u="<username>" -p="<passwd>" containers.intersystems.com
+docker pull containers.intersystems.com/intersystems/iris-ml:2020.3.0.304.0
+~~~
