@@ -1,0 +1,91 @@
+C:\GitHub\aoc\python>python3 ct.py
+welcome to demo test
+select a day (1..25) or exit with "*"
+        which day : 1
+Part 1: 181044
+Part 2: 82660352
+        which day : 2
+Part 1: 456
+Part 2: 308
+        which day : 3
+Part 1: 203
+Part 2: 3316272960
+        which day : 4
+Part 1: 250
+Part 2: 158
+        which day : 5
+Part 1: 828
+Part 2: 565
+        which day : 6
+Part 1: 7283
+Part 2: 3520
+        which day : 7
+Part 1: 337
+Part 2: 50100
+        which day : 8
+Part 1: 1723
+Part 2: 846
+        which day : 9
+Part 1: 1124361034
+Part 2: 129444555
+        which day : 10
+Part 1: 2059
+Part 2: 86812553324672
+        which day : 1
+Part 1: 181044
+Part 2: 82660352
+        which day : 11
+Part 1: 2247
+Part 2: 2011
+        which day : 12
+Part 1: 796
+Part 2: 39446
+        which day : 13
+Part 1: 4722
+Part 2: 825305207525452
+        which day : 17
+Part 1: 353
+Part 2: 2472
+        which day : 14
+Part 1: 8332632930672
+Part 2: 4753238784664
+        which day : 15
+Part 1: 412
+Part 2: 243
+        which day : 16
+Part 1: 23054
+Part 2: 51240700105297
+        which day : 17
+Part 1: 353
+Part 2: 2472
+        which day : 18
+Part 1: 11004703763391
+Part 2: 290726428573651
+        which day : 19
+Part 1: 115
+Part 2: 237
+        which day : 20
+Part 1: 16937516456219
+Part 2: 1858
+        which day : 21
+Part 1: 2078
+Part 2: lmcqt,kcddk,npxrdnd,cfb,ldkt,fqpt,jtfmtpd,tsch
+        which day : 22
+Part 1: 31308
+Part 2: 33647
+        which day : 23
+Part 1: 47598263
+Part 2: 248009574232
+        which day : 24
+Part 1: 528
+Part 2: 4200
+        which day : 25
+Part 1: 3015200
+Part 2: thanks for following this demo
+        which day : 0
+                only 1 .. 25 ! 0
+        which day :
+                what was that ?   ??
+        which day : *
+
+C:\GitHub\aoc\python>
