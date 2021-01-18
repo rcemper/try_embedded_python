@@ -19,7 +19,7 @@ USER ${ISC_PACKAGE_MGRUSER}
 COPY  stream/* /usr/irissys/mgr/stream/
 COPY  python/* /usr/irissys/mgr/python/
 COPY  src src 
-COPY  iris.key /usr/irissys/mgr/
+#  COPY  iris.key /usr/irissys/mgr/
 COPY  module.xml module.xml
 COPY  iris.script /tmp/iris.script
 
