@@ -1,157 +1,307 @@
 Welcome to embedded Python Demo
 select day as described on https://adventofcode.com/
 day 0 to exit
+
      day (1..25) [1]:
+
 +++++ starting : day1 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 181044
+
      part 2: 82660352
+
 +++++++++ done : day1 +++++++++
+
      day (1..25) [2]:
+
 +++++ starting : day2 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 456
+
      part 2: 308
+
 +++++++++ done : day2 +++++++++
+
      day (1..25) [3]:
+
 +++++ starting : day3 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 203
-     part 2: -978694336
+
+     part 2: 3316272960
+
 +++++++++ done : day3 +++++++++
+
      day (1..25) [4]:
+
 +++++ starting : day4 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 250
+
      part 2: 158
+
 +++++++++ done : day4 +++++++++
+
      day (1..25) [5]:
+
 +++++ starting : day5 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 828
+
      part 2: 565
+
 +++++++++ done : day5 +++++++++
+
      day (1..25) [6]:
+
 +++++ starting : day6 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 7283
+
      part 2: 3520
+
 +++++++++ done : day6 +++++++++
+
      day (1..25) [7]:
+
 +++++ starting : day7 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 337
+
      part 2: 50100
+
 +++++++++ done : day7 +++++++++
+
      day (1..25) [8]:
+
 +++++ starting : day8 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 1723
+
      part 2: 846
+
 +++++++++ done : day8 +++++++++
+
      day (1..25) [9]:
+
 +++++ starting : day9 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 1124361034
+
      part 2: 129444555
+
 +++++++++ done : day9 +++++++++
+
      day (1..25) [10]:
+
 +++++ starting : day10 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 2059
-     part 2: -1620629376
+
+     part 2: 86812553324672
+
 +++++++++ done : day10 +++++++++
+
      day (1..25) [11]:
+
 +++++ starting : day11 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 2247
+
      part 2: 2011
+
 +++++++++ done : day11 +++++++++
+
      day (1..25) [12]:
+
 +++++ starting : day12 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 796
+
      part 2: 39446
+
 +++++++++ done : day12 +++++++++
+
      day (1..25) [13]:
+
 +++++ starting : day13 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 4722
-     part 2: 1471795276
+
+     part 2: 825305207525452
+
 +++++++++ done : day13 +++++++++
+
      day (1..25) [14]:
+
 +++++ starting : day14 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
-     part 1: 396376432
-     part 2: -1290012008
+
+     part 1: 8332632930672
+
+     part 2: 4753238784664
+
 +++++++++ done : day14 +++++++++
+
      day (1..25) [15]:
+
 +++++ starting : day15 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 412
+
      part 2: 243
+
 +++++++++ done : day15 +++++++++
+
      day (1..25) [16]:
+
 +++++ starting : day16 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 23054
-     part 2: 1740264017
+
+     part 2: 51240700105297
+
 +++++++++ done : day16 +++++++++
+
      day (1..25) [17]:
+
 +++++ starting : day17 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 353
+
      part 2: 2472
+
 +++++++++ done : day17 +++++++++
+
      day (1..25) [18]:
+
 +++++ starting : day18 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
-     part 1: 997551039
-     part 2: 92307411
+
+     part 1: 11004703763391
+
+     part 2: 290726428573651
+
 +++++++++ done : day18 +++++++++
+
      day (1..25) [19]:
+
 +++++ starting : day19 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 115
+
      part 2: 237
+
 +++++++++ done : day19 +++++++++
+
      day (1..25) [20]:
+
 +++++ starting : day20 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
-     part 1: -1834559205
+
+     part 1: 16937516456219
+
      part 2: 1858
+
 +++++++++ done : day20 +++++++++
+
      day (1..25) [21]:
+
 +++++ starting : day21 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 2078
+
      part 2: lmcqt,kcddk,npxrdnd,cfb,ldkt,fqpt,jtfmtpd,tsch
+
 +++++++++ done : day21 +++++++++
+
      day (1..25) [22]:
+
 +++++ starting : day22 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 31308
+
      part 2: 33647
+
 +++++++++ done : day22 +++++++++
+
      day (1..25) [23]:
+
 +++++ starting : day23 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
-	 part 1: 47598263
-     part 2: -1098528936
+
+     part 1: 47598263
+
+     part 2: 248009574232
+
 +++++++++ done : day23 +++++++++
+
      day (1..25) [24]:
+     
 +++++ starting : day24 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
+
      part 1: 528
+
      part 2: 4200
+
 +++++++++ done : day24 +++++++++
+
      day (1..25) [25]:
+
 +++++ starting : day25 +++++++++
+
      select part (1,2,*=all,0=skip) [*] :
-     part 1: 3015200
+
+     part 1: (3015200, 3015200)
+
      part 2: thanks for following this demo
+
 +++++++++ done : day25 +++++++++
-     day (1..25) [1]:0
+
+     day (1..25) [1]:*
 
 good bye
-irisowner@b09fdb94bc2b:/opt/irisapp$
