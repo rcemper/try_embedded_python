@@ -129,9 +129,9 @@ with open('../stream/input18.txt', 'r') as f:
  #   print(f'Part 2: {total2}')
 
 def p1():
-    return total1
+    return str(total1)
 def p2():
-    return total2
+    return str(total2)
     
 if __name__ == '__main__':
     print('part 1: ',p1())
