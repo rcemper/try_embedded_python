@@ -11,9 +11,9 @@ with open('../stream/input05.txt', 'r') as f:
             break
 
 def p1():
-    return res1
+    return str(res1)
 def p2():
-    return res2
+    return str(res2)
     
 if __name__ == '__main__':
     print('part 1: ',p1())
