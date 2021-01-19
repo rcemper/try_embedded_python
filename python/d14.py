@@ -22,7 +22,7 @@ def p1():
                 if mask[x] != 'X':
                     b[x] = mask[x]
             ram[int(instruction[1])] = ''.join(b)
-    return sum(ram, 2)
+    return str(sum(ram, 2))
 
 def p2():
     d=d0
@@ -42,7 +42,7 @@ def p2():
             for i in product('01', repeat=b.count('X')):
                 addr = int(b_ft.format(*i),2)
                 ram[addr] = instruction[2]
-    return sum(ram, 10)
+    return str(sum(ram, 10))
 
 if __name__ == '__main__':
     print('part 1: ',p1())
