@@ -109,7 +109,7 @@ def p1():
     for i in connected:
         if len(connected[i]) == 2:
             prod *= i
-    return prod
+    return str(prod)
    
 
 @profiler
@@ -207,7 +207,7 @@ def p2():
     #     for l in rotate(rotate(rotate(image))):
     #         f.write(l + '\n' )
     
-    return sum([l.count('#') for l in image])
+    return str(sum([l.count('#') for l in image]))
 
 if __name__ == "__main__" :
     print('part 1: ',p1())
