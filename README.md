@@ -74,7 +74,7 @@ __iris.key__ is a temporary preview key available from [WRC Distribution](https:
 It requires your personal update as it might be expired.  
 It is not required to run the demo, but access to code might be limited.     
 
-__docker image__:  if you don't have the required image already you need to downlad it from  containers.intersystems.com 
+__docker image__:  if you don't have the required image already you need to download it from containers.intersystems.com 
 ~~~
 docker login -u="<username>" -p="<passwd>" containers.intersystems.com
 docker pull containers.intersystems.com/intersystems/iris-ml:2020.3.0.304.0
@@ -84,4 +84,4 @@ But a few tests take quite long time for calculations before showing a reaction.
 Don't get nervous for day 11, 15!!, 17, 19, 22, 23. 
  
 __iris.key:__ The container has no license included. 
-You may use it as single user or provide your own container license.
+You may use it as single user or provide your own container license key.  
