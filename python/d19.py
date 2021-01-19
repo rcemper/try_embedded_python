@@ -50,7 +50,7 @@ def p1():
     global once
     calc()
     once = 1
-    return str()res[0])
+    return str(res[0])
 def p2():
     global once
     calc()
