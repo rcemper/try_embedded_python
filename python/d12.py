@@ -25,7 +25,7 @@ def p1():
                 y += move[1] * dy
  #   print(f'Part 1: {abs(x) + abs(y)}')
     res1 = es2 = abs(x) + abs(y)
-    return res1
+    return str(res1)
 
 def p2():
     with open('../stream/input12.txt', 'r') as f:
@@ -54,7 +54,7 @@ def p2():
                 y += move[1] * dy
  #   print(f'Part 2: {abs(x) + abs(y)}')
     res2 = abs(x) + abs(y)
-    return res2
+    return str(res2)
     
 if __name__ == '__main__':
     print('part 1: ',p1())
