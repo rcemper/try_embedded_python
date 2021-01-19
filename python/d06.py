@@ -1,7 +1,7 @@
 def p1():
     with open('../stream/input06.txt', 'r') as f:
         count = sum([len(set(g) - set('\n')) for g in f.read().split("\n\n")])
-    return count
+    return str(count)
 
 def p2():
     with open('../stream/input06.txt', 'r') as f:
@@ -11,7 +11,7 @@ def p2():
             for answer in group.splitlines():
                 sharedanswers = sharedanswers.intersection(answer)
             count += len(sharedanswers)
-    return count
+    return str(count)
     
 if __name__ == '__main__':
     print('part 1: ',p1())
