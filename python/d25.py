@@ -20,7 +20,7 @@ def p1():
             for i in range(loopsize_door):
                 num = num * pk_card % 20201227
             res2=num
-    return res1
+    return str((res1,res2))
     
 def p2():
     return 'thanks for following this demo'
