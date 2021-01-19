@@ -16,7 +16,7 @@ Open the terminal in this directory and run:
 ```
 $ docker-compose build
 ```
-this my take some time to complete
+this may take some time to complete
 
 Run the IRIS container with this project:
 ```
