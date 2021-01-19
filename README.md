@@ -32,35 +32,20 @@ $ docker-compose exec iris iris session iris "##class(rccpy.AoC20).Run()"
 Welcome to embedded Python Demo
 select day as described on https://adventofcode.com/
 day 0 to exit
-
      day (1..25) [1]:
-
 +++++ starting : day1 +++++++++
-
      select part (1,2,*=all,0=skip) [*] :1
-
      part 1: 181044
-
      select part (1,2,*=all,0=skip) [*] :2
-
      part 2: 82660352
-
      select part (1,2,*=all,0=skip) [*] :0
-
 +++++++++ done : day1 +++++++++
-
      day (1..25) [2]:
-
 +++++ starting : day2 +++++++++
-
      select part (1,2,*=all,0=skip) [*] :*
-
      part 1: 456
-
      part 2: 308
-
 +++++++++ done : day2 +++++++++
-
      day (1..25) [3]:
 ```
 ## Hints  
