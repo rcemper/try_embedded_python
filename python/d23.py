@@ -90,13 +90,13 @@ def p1():
     global once,inputs
     load()
     once = 1
-    return part1(inputs)
+    return str(part1(inputs))
  
 def p2():
     global once,inputs
     load()
     once = 1
-    return part2(inputs)
+    return str(part2(inputs))
     
 if __name__ == '__main__':
     print('part 1: ',p1())
