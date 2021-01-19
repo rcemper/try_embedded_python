@@ -21,7 +21,7 @@ def p1():
                 bags.add(container)
                 if container in rules:
                     buffer.extend(rules[container])
-    return len(bags)
+    return str(len(bags))
  
 def p2():
     with open('../stream/input07.txt', 'r') as f:
@@ -37,7 +37,7 @@ def p2():
         for bag in buffer:
             count += bag[1]
             buffer.extend(bag[1] * rules[bag[0]])
-    return count
+    return str(count)
     
 if __name__ == '__main__':
     print('part 1: ',p1())
