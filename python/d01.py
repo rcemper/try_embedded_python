@@ -32,10 +32,10 @@ with open('../stream/input01.txt', mode='r') as inp:
     p02= find_multiple_threes(n, 2020)
 
 def p1():
-    return (p01)
+    return str(p01)
 
 def p2():
-    return (p02)
+    return str(p02)
 
 if __name__ == '__main__':
     print('Part 1 : ', p1())

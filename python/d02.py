@@ -5,7 +5,7 @@ def p1():
         line = line.replace('-',' ').replace(':','').split(' ')
         if int(line[0]) <= line[3].count(line[2]) <= int(line[1]):
             count = count + 1
-    return(count)        
+    return str(count)        
 
 def p2():
     lines = open("../stream/input02.txt").read().splitlines()
@@ -20,7 +20,7 @@ def p2():
             v = v + 1
         if v == 1:
             count = count + 1
-    return (count)
+    return str(count)
 
 if __name__ == '__main__':
     print('part 1: ',p1())

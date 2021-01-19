@@ -58,10 +58,10 @@ count = sum(1 for data in passports if validate_passdata(data))
 res2=count
 
 def p1():
-    return res1
+    return str(res1)
 
 def p2():
-    return res2
+    return str(res2)
     
 
 if __name__ == '__main__':

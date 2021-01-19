@@ -16,7 +16,7 @@ def p1():
         
         if (mat[i][j] == 1):
             count += 1
-    return (count)
+    return str(count)
 
 def p2():
     lines = open('../stream/input03.txt').read().splitlines()
@@ -52,7 +52,7 @@ def p2():
     ans = 1
     for r in lcount:
         ans = r*ans
-    return (ans)
+    return str(ans)
  
 if __name__ == '__main__':
     print('Part 1 : ', p1())
