@@ -23,7 +23,7 @@ def main():
     
 def p1():
     res=main()
-    return str(res[0])  
+    return str(res[0])
 def p2(): 
     res=main()
     return str(res[1])
