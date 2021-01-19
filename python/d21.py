@@ -37,7 +37,7 @@ def p1():
     for i in cnt:
         if i not in sus:
             answer += cnt[i]
-    return answer
+    return str(answer)
 
 @profiler
 def p2():
@@ -82,7 +82,7 @@ def p2():
     for i in sorted(list(map.keys())):
         answer += (map[i].pop() + ',')
     
-    return answer[:-1]
+    return str(answer[:-1])
 
 if __name__ == '__main__':
     print('part 1: ',p1())
