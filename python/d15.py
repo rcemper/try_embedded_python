@@ -32,12 +32,12 @@ def p1():
     global once, res
     calc()
     once = 1
-    return res[0]
+    return str(res[0])
 def p2():
     global once, res
     calc()
     once = 1
-    return res[1]
+    return str(res[1])
     
 if __name__ == '__main__':
     print('part 1: ',p1())
