@@ -189,7 +189,7 @@ def p1():
         while grid.update1():
             pass
         res1 = grid.count_occupants()
-    return res1
+    return str(res1)
  
 # Part 2, caching
 def p2():
@@ -198,7 +198,7 @@ def p2():
         while grid.update2_trace():
             pass
         res2 = grid.count_occupants()
-    return res2
+    return str(res2)
     
 if __name__ == '__main__':
     print('part 1: ',p1())
