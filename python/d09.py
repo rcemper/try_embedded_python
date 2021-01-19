@@ -23,10 +23,10 @@ def main():
     
 def p1():
     res=main()
-    return res[0]  
+    return str(res[0])  
 def p2(): 
     res=main()
-    return res[1] 
+    return str(res[1])
 
 if __name__ == '__main__':
     print('part 1: ',p1())
