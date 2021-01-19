@@ -17,7 +17,7 @@ def p1():
 
             grid = tmpgrid
             tmpgrid = set()
-    return len(grid)
+    return str(len(grid))
 
 def p2():
     with open('../stream/input17.txt', 'r') as f:
@@ -40,7 +40,7 @@ def p2():
             grid = tmpgrid
             tmpgrid = set()
       
-    return len(grid)
+    return str(len(grid))
  
 if __name__ == '__main__':
     print('part 1: ',p1())
