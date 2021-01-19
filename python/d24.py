@@ -76,12 +76,12 @@ def conway_hex(tiles, days, printout=False):
 def p1():
     with open('../stream/input24.txt', mode='r') as inp:
         tiles = [l.rstrip() for l in inp.readlines()]   
-    return len(setup_tiles(tiles))
+    return str(len(setup_tiles(tiles)))
 
 def p2():
     with open('../stream/input24.txt', mode='r') as inp:
         tiles = [l.rstrip() for l in inp.readlines()]   
-    return len(conway_hex(tiles, 100, False))
+    return str(len(conway_hex(tiles, 100, False)))
     
 if __name__ == '__main__':
     print('part 1: ',p1())
