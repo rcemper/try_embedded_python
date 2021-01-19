@@ -17,7 +17,7 @@ def p1():
             else:
                 raise Exception(f'Unknown code: {code[index][0]} at index {index}')
  #       print(f'Part 1: {accumulator}')
-        return accumulator
+        return str(accumulator)
 
 def p2():
     with open('../stream/input08.txt', 'r') as f:
@@ -71,7 +71,7 @@ def p2():
             else:
                 raise Exception(f'Unknown code: {code[index][0]} at index {index}')
 #        print(f'Part 2: {accumulator}')
-        return accumulator
+        return str(accumulator)
 
 if __name__ == '__main__':
     print('part 1: ',p1())
