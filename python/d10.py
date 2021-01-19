@@ -16,9 +16,9 @@ with open('../stream/input10.txt', 'r') as f:
 #    print(f'Part 2: {ways[-1]}')
     res2 = ways[-1]
 def p1():
-    return res1
+    return str(res1)
 def p2():
-    return res2
+    return str(res2)
     
 if __name__ == '__main__':
     print('part 1: ',p1())
