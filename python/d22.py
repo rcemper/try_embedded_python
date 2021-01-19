@@ -8,7 +8,7 @@ def p1():
 
     if decks[0]: res1 = sum(i * decks[0][-i] for i in range(1, 51))
     else:        res1 = sum(i * decks[1][-i] for i in range(1, 51))
-    return res1
+    return str(res1)
 
 def p2():
     decks = [[int(n) for n in i.splitlines()[1:]] for i in open('../stream/input22.txt').read().split('\n\n')]
@@ -33,7 +33,7 @@ def p2():
     if decks[0]: res2 = sum(i * decks[0][-i] for i in range(1, 51))
     else:        res2 = sum(i * decks[1][-i] for i in range(1, 51))
 
-    return res2
+    return str(res2)
     
 if __name__ == '__main__':
     print('part 1: ',p1())
