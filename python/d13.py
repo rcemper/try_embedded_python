@@ -26,7 +26,7 @@ def p1():
                     continue
             break 
     res1 = [k*v for k,v in schedule.items() if v == min([x for x in schedule.values()])]
-    return res1[0]
+    return str(res1[0])
  
 def p2():
     with open("../stream/input13.txt") as infile:
@@ -42,7 +42,7 @@ def p2():
                 n0 += increment
             increment *= b[0]
     res2 = b0[0] * n0 - b0[1]
-    return res2
+    return str(res2)
     
 if __name__ == '__main__':
     print('part 1: ',p1())
