@@ -1,4 +1,4 @@
-ARG IMAGE=containers.intersystems.com/intersystems/iris-ml:2020.3.0.304.0
+ARG IMAGE=containers.intersystems.com/intersystems/iris-ml-community:2020.3.0.304.0
 FROM $IMAGE
 USER root   
 
