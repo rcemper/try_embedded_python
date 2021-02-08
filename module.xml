@@ -6,7 +6,7 @@
       <Version>0.0.2</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="rccpy.PKG"/>
+      <Resource Name="rccpy.AoC20.CLS"/>
       <FileCopy Name="python/" Target="${mgrdir}python/"/>
       <FileCopy Name="stream/" Target="${mgrdir}stream/"/>
     </Module>
