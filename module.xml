@@ -3,10 +3,12 @@
   <Document name="try_embedded_python.ZPM">
     <Module>
       <Name>try_embedded_python</Name>
-      <Version>0.0.1</Version>
+      <Version>0.0.2</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="rccpy.PKG"/>
+      <FileCopy Name="python/" Target="${mgrdir}python/"/>
+      <FileCopy Name="stream/" Target="${mgrdir}stream/"/>
     </Module>
   </Document>
 </Export>
