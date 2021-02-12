@@ -29,7 +29,7 @@ part
 	read !?5,"select part (1,2,*=all,0=skip) [*] :",part#1,!
 	if part="" set part="*"
 	if '$lf($lb(1,2,"*",0),part) {
-		write ?10,"1 2 * 0 only !!"
+		write ?10,"1 2 * 0 only !!!"
 		goto part
 		}
 	do $case(part,	0:0,
