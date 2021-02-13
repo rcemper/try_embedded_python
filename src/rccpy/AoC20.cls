@@ -1,5 +1,5 @@
 Class rccpy.AoC20 {
-
+/// docker-compose exec iris iris session iris "##class(rccpy.AoC20).Run()"
 ClassMethod Run()
 {
 	write #!,"Welcome to embedded Python Demo"
@@ -48,5 +48,5 @@ part
 	write !?5,"part 2: ",ans,!
 	quit
 }
-/// docker-compose exec iris iris session iris "##class(rccpy.AoC20).Run()"
+
 }
