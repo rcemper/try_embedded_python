@@ -1,4 +1,5 @@
-ARG IMAGE=intersystemsdc/iris-ml-community:2020.3.0.302.0-zpm
+# ARG IMAGE=intersystemsdc/iris-ml-community:2020.3.0.302.0-zpm
+ARG IMAGE=intersystemsdc/iris-community
 FROM $IMAGE
 USER root   
 
