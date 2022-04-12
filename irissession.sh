@@ -6,6 +6,7 @@ cat << EOF | iris session $ISC_PACKAGE_INSTANCENAME -U %SYS
 do ##class(%SYSTEM.Process).CurrentDirectory("$PWD")
 $@
 if '\$Get(sc) do ##class(%SYSTEM.Process).Terminate(, 1)
+zpm "install webterminal"
 zn "%SYS"
 do ##class(SYS.Container).QuiesceForBundling()
 Do ##class(Security.Users).UnExpireUserPasswords("*")
