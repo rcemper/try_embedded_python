@@ -65,6 +65,4 @@ Don't get nervous for day 11, 15!!, 17, 19, 22, 23.
 [Demo Server WebTerminal](https://try-embedded-python.demo.community.intersystems.com/terminal/)    
         
 **Code Quality**   
-<img width="85%" src="
-https://openexchange.intersystems.com/mp/img/packages/1775/screenshots/dj0okgvnqubehrqtwizisudo.jpg
-">
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1778/screenshots/y6ta2wht7mzwvvefxl1aug8j8l4.jpg">
