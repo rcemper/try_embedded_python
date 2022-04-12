@@ -8,9 +8,9 @@ on:
 
 env:
   # Change this section according to your needs
-  IMAGE_NAME:   try_e_py
-  SERVICE:      try_e_py
-  DOMAIN_NAME:  try_e_py.demo.community.intersystems.com
+  IMAGE_NAME:   try-embedded-python
+  SERVICE:      try-embedded-python
+  DOMAIN_NAME:  try-embedded-python.community.intersystems.com
 # Leave this section untouched
   PROJECT_ID:   iris-community-demos
   CLUSTER_NAME: demo
