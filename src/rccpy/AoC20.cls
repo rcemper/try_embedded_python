@@ -24,7 +24,7 @@ ClassMethod py(day = "") [ Private ]
 	set module="d"_$e(100+day,2,3)
 		,py=##class(%SYS.Python).Import(module)
 		,a=py.SetStdIOMode(1)
-
+	if a    ; just for Code SMELL
 part		
 	read !?5,"select part (1,2,*=all,0=skip) [*] :",part#1,!
 	if part="" set part="*"
