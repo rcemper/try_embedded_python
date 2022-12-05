@@ -60,9 +60,3 @@ But a few tests take quite long time for calculations before showing a reaction.
 Don't get nervous for day 11, 15!!, 17, 19, 22, 23. 
 
 [Article in DC](https://community.intersystems.com/post/trying-embedded-python)
-
-[Demo Server SMP](https://try-embedded-python.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
-[Demo Server WebTerminal](https://try-embedded-python.demo.community.intersystems.com/terminal/)    
-        
-**Code Quality**   
-<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1152/screenshots/y6ta2wht7mzwvvefxl1aug8j8l4.jpg">
