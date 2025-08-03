@@ -3,7 +3,7 @@
   <Document name="try_embedded_python.ZPM">
     <Module>
       <Name>try_embedded_python</Name>
-      <Version>0.0.4</Version>
+      <Version>0.0.6</Version>
       <Description>An early attempt to use embedded Python in IRIS 2020.3</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
@@ -13,3 +13,4 @@
     </Module>
   </Document>
 </Export>
+
